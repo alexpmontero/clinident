@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114028516-3"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-114028516-3');
+		</script>
+
 		<meta name="google-site-verification" content="rW0aL9x2kUChzogRBPZ5NyKBW6ET6_EYj8iDzQYU_Uk" />
 	   	<title>Clinident Tabasco</title>
 		<link rel="icon" href="images/imgs/ico.ico">
@@ -8,6 +18,13 @@
 		<meta name="description" content="Nos especializamos en correcion de malposiciones dentales y maxilares, correcion de habitos que alteren el desarrollo natural del los maxilares y dientes." />
 		<meta name="keywords" content="clinident tabasco, dentistas en tabasco, dentistas en villahermosa, Ortodoncia Y Odontologia" />
 		<meta name="author" content="By Alex Pérez Montero, Team Websidi">
+
+			<!-- Google + Tags -->
+		<meta itemprop="name" content="CLINIDENT TABASCO" />
+		<meta itemprop="author" content="By Alex Pérez Montero, Team Websidi"/>
+		<meta itemprop="description" content="Nos especializamos en correcion de malposiciones dentales y maxilares, correcion de habitos que alteren el desarrollo natural del los maxilares y dientes." />
+		<meta property="og:image" itemprop="image" content="https://www.clinidenttabasco.com/images/imgs/logo_clinicadental_sm.png" />
+
 
 		<!-- Chrome, Firefox OS y Opera -->
 		<meta name="theme-color" content="#3b4077"/>
@@ -32,11 +49,12 @@
 		
         <!-- theme custom -->
 		<link rel="stylesheet" href="css/toastr.min.css">
-		<link rel="stylesheet" href="css/style.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
 
 		<!-- fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
 
 		<!-- Font Awesome -->
 		<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css" />
@@ -82,7 +100,7 @@
 
 	<div id="wrapper" class="scroll-animations">
 
-	<header id="header">
+	<header id="header" class="cambio">
 		<div class="container">
 		<div class="col-md-12">
 		<div class="main-menu">
@@ -92,7 +110,8 @@
 		
 		<div class="minimal-menu">
 			<div class="logo">
-				<h1 class="logo_desktop"><a class="transicion" href="#inicio">CLINIDENT</a></h1>
+				<h1 class="logo_desktop"><a class="transicion" href="#inicio"><img src="images/imgs/logo_clinicadental_header.png" alt="LogoClinident" title="Clinident"></a></h1>
+				<h1 class="logo_hover"><a class="transicion" href="#inicio"><img src="images/imgs/logo_clinicadental_header-wht.png" alt="LogoClinident" title="Clinident"></a></h1>
 
 				<a class="logo_movil" href="#"><img src="images/imgs/logo_clinicadental_movil.png" alt="LogoClinident" title="Clinident"></a>
 			</div>
@@ -117,72 +136,97 @@
 		</div>		
 	</header>
 
-	<div id="inicio" class="sec_inicio">
-		<ul class="bxslider">
-		  <div class="item bg_item " style="background-image:url('images/imgs/slide_bg1.jpg');">
-		  	<div class="bg_overlay_slider">
-		  		<div class="info_home text-center">
-		  			<div class="">
-		  				<img class="img-responsive center-block img_home" src="images/imgs/logo_clinicadental_sm.png"  alt="Logo_Clinident" title="CLINIDENT">
+	<!-- SECCION HOME -->	
+	<div id="inicio" class="sec_inicio bg_item" style="background-image:url('images/imgs/header_bg.jpg');">
+		<div class="container" >
+		  	<div class="info_home">
+		  		<div class="movil_ident">
+		  			<img class="img-responsive center-block img_homex" src="images/imgs/logo_clinicadental_sm.png"  alt="Logo_Clinident" title="CLINIDENT">
 						<h2><span class="azul">CLINI</span><span class="rojo">DENT</span></h2>
-						<h4>Ortodoncia y Odontología Familiar</h4>
-						<p>Somos expertos en tratamientos de salud dental.</p>
-						<a href="#acerca" class="btn_clini transicion ">Conócenos</a>
-
-						<a href="https://www.facebook.com/Ortodoncia-Y-Odontologia-Familiar-429623097120383/" target="_blank"><img class="btn_logofb" src="images/imgs/ico_fb.png" alt="Facebook Clinident" title="Síguenos en"></a>	
-
-		  			</div>
 		  		</div>
-		  	</div>
-		  </div>
-
-		  <div class="item bg_item " style="background-image:url('images/imgs/slide_bg2.jpg');">
-		  	<div class="bg_overlay_slider">
-		  		<div class="info_home text-center">
-		  			<div class="">
-		  				<img class="img-responsive center-block img_home" src="images/imgs/logo_clinicadental_sm.png" alt="Logo_Clinident" title="CLINIDENT">
-						<h2><span class="azul">CLINI</span><span class="rojo">DENT</span></h2>
-							
-						<h4>Ortodoncia y Odontología Familiar</h4>
-						<p>Una sonrisa perfecta... ¡Atrae muchas miradas!</p>
-						
-						<a href="#acerca" class="btn_clini transicion ">Conócenos</a>
-
-						<a href="https://www.facebook.com/Ortodoncia-Y-Odontologia-Familiar-429623097120383/" target="_blank"><img class="btn_logofb" src="images/imgs/ico_fb.png" alt="Facebook Clinident" title="Síguenos en"></a>	
-
-		  			</div>
-		  		</div>
-		  	</div>
-		  </div>
-		</ul>
+				<h2 class="ttl_cursive">Ortodoncia y Odontología Familiar</h2>
+				<h4 class="hidden-xs">Una sonrisa perfecta... <span class="azul">¡Atrae muchas miradas! </span></h4>
+				<h4 class="hidden-lg hidden-md hidden-sm">Una sonrisa perfecta... <br><span class="azul">¡Atrae muchas miradas! </span></h4>
+				<a href="#acerca" class="btn_clini transicion ">Conócenos</a>
+  			</div>
+  			<div class="img_home"><img src="images/imgs/header_person.png" alt=""></div>
+		</div>
 	</div>
+
+
+	<!-- SECCION FAST_ACTION -->	
+	<section id="contacto_cita" class="container action_fast">
+		
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="phone text-center bg_degrade">
+					<div class="icon"><i class="fas fa-phone"></i></div>
+					<h1 class="ttl_cursive">(993) 312 5769</h1>
+					<div class="row">
+						<h3>Horarios de atención</h3>
+						<p class="col-xs-6">
+							<b>Lunes a Viernes</b> <br>
+							9:00am a 1:00pm  <br>
+							4:00pm a 8:00pm
+						</p>
+						<p class="col-xs-6">
+							<b>Sábado</b> <br>
+							9:00am a 1:00pm
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="email text-center">
+					<h1 class="">¡HAZ UNA <span class="azul">CITA!</span></h1>
+					<div class="">
+						<form class="form-inline" method="POST" data-toggle="validator" role="form" id="form_clinident">
+							  <div class="form-group">
+							   <input type="text" id="nombre" name="nombre" class="" title="Tu Nombre" placeholder="Nombre"/>
+							  </div>
+							  <div class="form-group">
+							    <input type="email" id="correo" name="correo" class="" title="Tu correo electrónico" placeholder="Correo electrónico"/>
+							  </div>
+							   <div class="form-group">
+							    <input type="text" id="tel" name="tel" class="" title="Tu Teléfono" placeholder="Teléfono"/>
+							  </div>
+							  <div class="form-group">
+							  <button type="submit" class="btn_action_fast cambio"><b>Agendar cita</b></button>
+							  </div>
+							  <p class="hidden-sm hidden-xs"><small>Reserva tu cita enviándonos tus datos y nosotros nos comunicaremos contigo lo antes posible</small></p>
+							
+							</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 
 
 	<!-- SECCION ACERCA -->	
 	<div id="acerca" class="theme-buy">
-			<div class="container ">
-				<div class="col-md-7">
-					<h2 class="font_ttl os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0s">CLINI<span class="color">DENT</span></h2>
-					<h4 class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0s">Ortodoncia y Odontología Familiar</h4>
-					<div class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay=".1s">
-						<p>En CLINIDENT ofrecemos a nuestros pacientes un servicio dental integral, manteniéndonos siempre actualizados y utilizando equipos y materiales de vanguardia.</p>
-						<p class="p_oculto">Trabajamos con el compromiso de brindar a nuestros pacientes una atención oportuna, eficiente y con principios éticos, basándonos en la calidez humana. </p>
-						<p>El objetivo de CLINIDENT es poner al alcance de las personas la salud buco-dental, proponiendo los tratamientos dentales como una inversión y no como un gasto.</p>
-						
-
-						
-						
-					</div>
-					<div class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0"><a href="#Servicios" class="transicion btn_clini">ver servicios</a></div>
+		<div class="container ">
+			<div class="col-md-7">
+				<h2 class="font_ttl os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0s">CLINI<span class="color">DENT</span></h2>
+				<h4 class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0s">Ortodoncia y Odontología Familiar</h4>
+				<div class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay=".1s">
+					<p>En CLINIDENT ofrecemos a nuestros pacientes un servicio dental integral, manteniéndonos siempre actualizados y utilizando equipos y materiales de vanguardia.</p>
+					<p class="p_oculto">Trabajamos con el compromiso de brindar a nuestros pacientes una atención oportuna, eficiente y con principios éticos, basándonos en la calidez humana. </p>
+					<p>El objetivo de CLINIDENT es poner al alcance de las personas la salud buco-dental, proponiendo los tratamientos dentales como una inversión y no como un gasto.</p>
+					
 				</div>
-				
-				<div class="col-md-5 os-animation text-center" data-os-animation="fadeInRight" data-os-animation-delay=".2s">
-					<video controls preload class="acerca_video" poster="images/imgs/poster_vdo.png" >
-		                <source src="videos/clinident.mp4" type="video/mp4">
-		                <source src="videos/clinident.webm" type="video/webm">
-		            </video>
-				</div>
+				<div class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0"><a href="#Servicios" class="transicion btn_clini">ver servicios</a></div>
 			</div>
+			
+			<div class="col-md-5 os-animation text-center" data-os-animation="fadeInRight" data-os-animation-delay=".2s">
+				<video controls preload class="acerca_video" poster="images/imgs/poster_vdo.png" >
+	                <source src="videos/clinident.mp4" type="video/mp4">
+	                <source src="videos/clinident.webm" type="video/webm">
+	            </video>
+			</div>
+		</div>
 	</div>
 
 		<!-- SECCION ANUNCIO-->
@@ -214,7 +258,7 @@
 						<div class="strategy-box hvr-float-shadow">
 							<span class="glyphicon glyphicon-gift " aria-hidden="true"></span>
 							<h3>Ortodoncia</h3>
-							<p>30% de descuento en tratamiento inicial. <br><i>*Aplica restricciones</i> <br> <small>1 - 20 de Mayo 2017</small></p>
+							<p>30% de descuento en tratamiento inicial. <br> <br> <i>*Aplica restricciones</i> <!-- <br> <small>1 - 20 de Mayo 2017</small> --></p>
 							<!-- <p>15% de descuento en el anticipo del tratamiento de ortodoncias generales.</p> -->
 						</div>	
 					</div>
@@ -317,21 +361,25 @@
 	</div>
 
 	<!-- SECCION CONTACTO-CITAS-->
-	<div id="contacto_cita" class="contacto_cita">
+	<div class="contacto_cita">
 		<div class="container">
 			<div class="contacto_titulo">
-				<h2 class="font_ttl os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">¡Haz una <span class="color-bg-3">cita!</span></h2>
-				<h3 class="os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".4s">y comienza a cuidar la salud de tus dientes.</h3>
+				<h2 class="font_ttl os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">¡Estamos <span class="color-bg-3">cerca</span> de ti!</h2>
+				<h3 class="os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".4s">Comienza a cuidar la salud de tus dientes.</h3>
 				<hr class="hr_title">
-				
 			</div>
 			<div class="contacto_info">
 				<div class="row">
 
-					<div class="col-sm-6 os-animation" data-os-animation="fadeInLeft" data-os-animation-delay=".2s">
-					<h3>Formulario para citas</h3>
+					<div class="col-sm-4 os-animation text-center" data-os-animation="fadeInLeft" data-os-animation-delay=".2s">
+						<h3>Síguenos en Facebook:</h3>
 
-						<form  method="POST" data-toggle="validator" role="form" id="form_clinident">
+						<div class="fb-page" data-href="https://www.facebook.com/Clinident-Ortodoncia-Y-Odontologia-Familiar-429623097120383/" data-tabs="timeline" data-height="325" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Clinident-Ortodoncia-Y-Odontologia-Familiar-429623097120383/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Clinident-Ortodoncia-Y-Odontologia-Familiar-429623097120383/">Clinident - Ortodoncia Y Odontologia Familiar</a></blockquote></div>
+						<div class="fb_btns">
+							<div class="fb-like" data-href="https://www.facebook.com/Ortodoncia-Y-Odontologia-Familiar-429623097120383" data-layout="button_count" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+						</div>
+
+						<!-- <form  method="POST" data-toggle="validator" role="form" id="form_clinident">
 							<div class="row">
 								<div class="col-xs-12">
 									<input type="text" id="nombre" name="nombre" class="" title="Tu Nombre" placeholder="Nombre"/>
@@ -355,47 +403,11 @@
 									<input type="submit" class="cambio btn_clini btn" value="Agendar cita" />
 								</div>	
 							</div>								
-						</form>
+						</form> -->
+					<br><br>
 					</div>
-					<div class="col-sm-6 text-center cont_img os-animation" data-os-animation="fadeInRight" data-os-animation-delay=".2s">
-						<p>Reserva tu cita enviándonos tus datos y nosotros nos comunicaremos contigo lo antes posible.</p>
-						<img src="images/imgs/img_frase.png" alt="logo">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<footer>
-		<div class="principios">
-			<div class="row">
-				<div class="col-sm-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s" >
-					<span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Profesionalismo
-				</div>
-				<div class="col-sm-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".1s">
-					<span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Calidad humana
-				</div>
-				<div class="col-sm-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".2s" >
-					<span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Responsabilidad
-				</div>
-			</div>
-		</div>
-		<div class="detalles">
-			<div class="row">
-				<div class="container text-center">
-					
-					<div class="detalles_div col-md-4">
-						<div class="fb_page">
-							<h4 >Síguenos en Facebook:</h4>
-						
-							<div class="fb-page" data-href="https://www.facebook.com/Ortodoncia-Y-Odontologia-Familiar-429623097120383" data-width="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Ortodoncia-Y-Odontologia-Familiar-429623097120383" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Ortodoncia-Y-Odontologia-Familiar-429623097120383">Ortodoncia Y Odontologia Familiar</a></blockquote></div>
-							<div class="fb_btns">
-								<div class="fb-like" data-href="https://www.facebook.com/Ortodoncia-Y-Odontologia-Familiar-429623097120383" data-layout="button_count" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
-							</div>
-						</div>
-					</div>
-
-					<div class="detalles_div col-md-4"><h4>Contacto</h4>
+					<div class="col-sm-4 text-center">
+						<h3>Contáctanos</h3>
 						<div >
 							<p class="detalles_tel"><span class="glyphicon glyphicon-phone" aria-hidden="true"> </span> (993) 312 5769 </p>
 							<a class="detalles_correo"href="mailto:oscbon17@gmail.com">
@@ -403,9 +415,7 @@
 							</a>
 							
 						</div>
-					</div>
-
-					<div class="detalles_div col-md-4">
+						<hr>
 						<div>
 							<h4>¿Dónde estamos?</h4>
 							<address>
@@ -418,36 +428,48 @@
 							 <p>Sábado<br> 
 							  9:00am a 1:00pm</p>
 						</div>
+					<br><br>
 					</div>
-					
+					<div class="col-sm-4 text-center cont_img os-animation" data-os-animation="fadeInRight" data-os-animation-delay=".2s">
+						<h3>¡Haz una cita!</h3>
+
+						<p>Reserva tu cita enviándonos tus datos y nosotros nos comunicaremos contigo lo antes posible.</p>
+						<img src="images/imgs/img_frase.png" alt="logo">
+						<br><br>
+						<div class="btn_cita_movil"><a class="transicion btn_menu btn_cita os-animation" data-os-animation="pulse infinite" data-os-animation-delay="0s" href="#contacto_cita">Haz una cita</a></div>
+					<br><br>
+					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
+	<footer>
+		<div class="bottom-bar">
+			<div class="container">
+				<div class="col-md-12 left">
+					© 2017 CLINIDENT. Todos los derechos reservados. Desarrollado por <a href="http://www.websidi.com/" target="_blank"> Websidi.com</a>
+					<ul class="foot-nav pull-right">
+						<li><a class="transicion" href="#inicio">Inicio</a></li>
+						<li><a class="transicion" href="#acerca">Acerca</a></li>
+						<li><a class="transicion" href="#promociones">Promociones</a></li>
+						<li><a class="transicion" href="#Servicios">Servicios</a></li>
+						<li><a class="transicion" href="#contacto_cita">Haz una cita</a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
 	</footer>			
 	
 
-	<div class="bottom-bar">
-		<div class="container">
-			<div class="col-md-12 left">
-				© 2017 CLINIDENT. Todos los derechos reservados. Desarrollado por <a href="http://www.websidi.com/" target="_blank"> Websidi.com</a>
-				<ul class="foot-nav pull-right">
-					<li><a class="transicion" href="#inicio">Inicio</a></li>
-					<li><a class="transicion" href="#acerca">Acerca</a></li>
-					<li><a class="transicion" href="#promociones">Promociones</a></li>
-					<li><a class="transicion" href="#Servicios">Servicios</a></li>
-					<li><a class="transicion" href="#contacto_cita">Haz una cita</a></li>
-				</ul>
-			</div>
-			
-		</div>
-	</div>
+	
 	
 	
 	
 	</div>
 	
-  
+
 	
 	<!-- Jquery Libs -->
 	<!-- Latest Version Of Jquery -->
@@ -473,6 +495,7 @@
 	<script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
 	<!-- Theme Custom -->
 	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 	<script type="text/javascript" src="js/transiciones.js"></script>
 	<script type="text/javascript" src="js/preloader.js"></script>
 	<script src="js/jquery.validate.min.js"></script>

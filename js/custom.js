@@ -25,12 +25,16 @@ jQuery(document).ready( function() {
 		var cambio=($(window).scrollTop()>0)?true:false;
 
 		if (cambio){	
-			$("header").addClass('bg_header');	
-			$(".logo_desktop").css('display', 'block');
-		}else{
-			$("header").removeClass('bg_header');
+			$("header").addClass('bg_degrade');	
 			$(".logo_desktop").css('display', 'none');
-		};
+			$(".logo_hover").css('display', 'block');
+			$("header .btn_menu").css('color', '#eee');
+		}else{
+			$("header").removeClass('bg_degrade');
+			$(".logo_desktop").css('display', 'block');
+			$(".logo_hover").css('display', 'none');
+			$("header .btn_menu").css('color', '#333');
+		}
 	});
 
 
