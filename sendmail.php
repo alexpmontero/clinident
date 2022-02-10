@@ -11,7 +11,7 @@ $mensaje.= "\n-----------------------------------\n";
 
 
 
-$destino= "santiago.perezm.softtek.com";
+$destino= "santiago.perezm.softtek@gmail.com";
 $de = "Enviado desde Clinidenttabasco.com por: ".$_POST['nombre'];
 $remitente = $_POST['correo'];
 
